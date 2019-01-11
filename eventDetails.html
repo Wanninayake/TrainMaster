@@ -15,24 +15,86 @@
     <!-- Event Details -->
     <div data-role="page" id="events" data-theme="a">
 
-        <div data-role="header">
+        <div data-role="header" data-position="fixed">
             <h1>Train master</h1>
+            <a href="#panel1" data-icon="bars" data-iconpos="notext"> Menu </a>
+            <a href="" data-icon="back" data-iconpos="notext"> Back </a>
+            <!--
             <div data-role="navbar">
                 <ul>
                     <li> <a href="login.html" data-transition="slide"> Sign out</a> </li>
                     <li> <a href="favourites.html" data-transition="slide"> Favourites </a> </li>
                 </ul>
-            </div>
+            </div>-->
         </div>
 
-        <div data-role="main" class="ui-content">
+        <div data-role="main" class="ui-content" align="center">
             <h1>Event Details</h1>
+            <ul data-role="listview" data-inset="true">
+
+                <li >
+                    <a href="" >
+                    <img src="img/hotel.jpg" alt="" >
+                        <h1> Hotel Safari</h1>
+                        <p> content </p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true">
+
+                <li >
+                    <a href="" >
+                        <img src="img/LondonBridge.jpg" alt="" >
+                        <h1> London Bridge Carnival</h1>
+                        <p> Special event -Find the relevant person in London bridge carnival to get rewords </p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true">
+
+                <li >
+                    <a href="" >
+                        <img src="img/StPancras.jpg" alt="" >
+                        <h1> St Pancras</h1>
+                        <p> content </p>
+                    </a>
+                </li>
+            </ul>
+
+            <ul data-role="listview" data-inset="true">
+
+                <li >
+                    <a href="" >
+                        <img src="img/BigBen.jpg" alt="" >
+                        <h1> Big Ben Suger Tea </h1>
+                        <p> Special event - Solve the puzzle while having free coffee at Beg Ben Coffee shop and win the QR code to get
+                            rewords. </p>
+                    </a>
+                </li>
+            </ul>
+
+
         </div>
 
-        <div data-role="footer">
+
+
+
+        <div data-role="footer" data-position="fixed">
             <h2>&copy; copyrights and other details</h2>
         </div>
 
+        <div data-role="panel" id="panel1" data-display="overlay">
+            <ul data-role="listview">
+                <li><a href=""> Profile</a> </li>
+                <li><a href=""> Home</a> </li>
+                <li><a href=""> Event Details</a> </li>
+                <li><a href=""> Locations</a> </li>
+                <li><a href="favourites.html"> Favourites</a> </li>
+                <li><a href="login.html"> Sign Out</a> </li>
+            </ul>
+        </div>
     </div>
 
 </body>
